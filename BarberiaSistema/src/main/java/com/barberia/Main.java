@@ -14,7 +14,7 @@ public class Main {
             try {
                 UIManager.setLookAndFeel(new FlatDarkLaf());
             } catch (Exception e) {
-                System.err.println("No se pudo aplicar el diseño.");
+                System.err.println("No se pudo aplicar el diseño .");
             }
 
             new LoginFrame().setVisible(true);

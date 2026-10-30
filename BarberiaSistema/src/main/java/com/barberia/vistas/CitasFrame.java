@@ -16,7 +16,7 @@ public class CitasFrame extends JFrame {
     private final CitaDAO dao = new CitaDAO();
 
     private final DefaultTableModel modelo = new DefaultTableModel(
-            new Object[]{"ID", "Cliente", "Barbero", "Servicio",
+            new Object[]{"ID", "Cliente", "Barberos", "Servicio",
                          "Fecha y hora", "Estado"}, 0) {
         @Override
         public boolean isCellEditable(int fila, int columna) {
